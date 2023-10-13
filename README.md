@@ -1,18 +1,26 @@
 # H1
-## H2
+
+## H2 `some code`
+
 ### H3
+
 **bold text**
 
-*italicized text*
+_italicized text_
+
 > blockquote
+
 1. First item
 1. Second item
 1. Third item
+
 - First item
 - Second item
 - Third item
 
-`code`
+<div class="text-center">Centered</div>
+
+A statement containing an inline `code` in single reserved quote.
 
 ```
 {
@@ -31,7 +39,8 @@
 ```
 
 ---
-[title](https://www.example.com)
+
+[link](https://www.example.com)
 
 automatic link https://www.example.com
 
@@ -41,28 +50,42 @@ automatic link https://www.example.com
 | Header | Title |
 | Paragraph | Text |
 
-| a | b  |  c |  d  |
-| - | :- | -: | :-: |
+| a      | b      |      c |   d    |
+| ------ | :----- | -----: | :----: |
 | aaaaaa | bbbbbb | cccccc | dddddd |
 
 Here's a sentence with a footnote. [^1]
 [^1]: This is the footnote.
+
 ### My Great Heading {#custom-id}
+
 [Heading IDs](#custom-id)
 
 term
 : definition
 
 ~~strikethrough~~
+
+A simple list
+
+- Item
+- Item
+
+A todo list
+
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
 That is so funny! :joy:
 
+🌵
+
 I need to highlight these ==very important words==.
 
-H~2~O 
+double -- dash
+
+H~2~O
 
 X^2^
 
@@ -72,4 +95,4 @@ X^2^
 
 <span style="color:red;">Red text</span>
 
-<Button />
+End
